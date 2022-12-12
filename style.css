@@ -21,6 +21,9 @@ body {
   align-items: center;
   padding: 0 8%;
 }
+.hamburg {
+  display: none;
+}
 .nav {
   display: flex;
   width: 100%;
@@ -299,5 +302,8 @@ i:hover {
 @media (max-width: 700px) {
   .hide {
     display: none;
+  }
+  .hamburg {
+    display: block;
   }
 }
