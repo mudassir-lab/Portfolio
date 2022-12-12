@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@400;500;700&family=Public+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mohmad Kmar</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <header class="heading">
+      <div class="nav">
+        <h2 class="logo">MK</h2>
+        <ul class="list">
+          <li><a class="hide" href="#project-section">Project</a></li>
+          <li><a class="hide" href="#skill-section">Skill</a></li>
+          <li><a class="hide" href="#contact-section">Contact</a></li>
+          <li>
+            <a
+              ><img
+                class="image"
+                src="./image/icons8-moon-and-stars-24.png"
+                onclick="changelogoAndColor()"
+            /></a>
+          </li>
+          <li><img src="./image/icons8-menu-rounded-32 (1).png" /></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main Section -->
+    <section class="main-div">
+      <h1 class="intro-heading">Hi, I am <span>Mohmad Kmar</span></h1>
+      <h3 class="second-heading">A Front End Engineer.</h3>
+      <p class="paragraph">
+        Seeking a beginner role to enhance and explore my technical knowledge
+        gained at Newton School last year. I hold a BSc degree from Janvikas
+        college and currently appeared an MBA (Information Technology) at Dr. D
+        Y patil Collage.
+      </p>
+      <div class="button-logo">
+        <a href="./resume/Mohmad_Kmar Kadri.pdf" download
+          ><button>resume</button></a
+        >
+        <a href="https://github.com/Kamar313"
+          ><i class="fa fa-github" style="font-size: 32px"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/kamar-kadri-409aa4167/"
+          ><i class="fa fa-linkedin" style="font-size: 32px"></i
+        ></a>
+      </div>
+    </section>
+    <section id="project-section" class="project">
+      <h2 class="project-head">PROJECTS</h2>
+      <div class="project-card">
+        <div class="card-1 card">
+          <h3 class="card-1-head">Password Genrator</h3>
+          <p class="project-details">
+            Its a Password Genrator app it will genrate random password on eavry
+            click in random order mix of number and alphabte.
+          </p>
+          <ul class="technology">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <a href="https://github.com/Kamar313/Passwordcreator.github.io">
+            <i id="link-logo" class="fa fa-github" style="font-size: 32px"></i
+          ></a>
+          <a href="https://kamar313.github.io/Passwordcreator.github.io/">
+            <i id="link-logo" class="fa fa-link" style="font-size: 32px"></i
+          ></a>
+        </div>
+        <div class="card-2">
+          <h3 class="card-2-head">Tic Tac Toe</h3>
+          <p class="project-details">
+            Its a very famous two player game to make cross or horizantal
+            alignment who will make first he will win.
+          </p>
+          <ul class="technology">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+          </ul>
+          <a href="https://github.com/Kamar313/tic-tac-toe-react-app"
+            ><i id="link-logo" class="fa fa-github" style="font-size: 32px"></i
+          ></a>
+
+          <a href="https://kamar313.github.io/tic-tac-toe-react-app/"
+            ><i id="link-logo" class="fa fa-link" style="font-size: 32px"></i
+          ></a>
+        </div>
+        <div class="card-3">
+          <h3 class="card-3-head">The Dise Game</h3>
+          <p class="project-details">
+            That is game which count a dice number and how will get first 20
+            score he will gate winner
+          </p>
+          <ul class="technology">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <a href="https://github.com/Kamar313/DiseGame.github.io"
+            ><i id="link-logo" class="fa fa-github" style="font-size: 32px"></i
+          ></a>
+
+          <a href="https://kamar313.github.io/DiseGame.github.io/"
+            ><i id="link-logo" class="fa fa-link" style="font-size: 32px"> </i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section id="skill-section" class="skill">
+      <h3 class="project-head skill-head">SKILLS</h3>
+      <div class="grid1">
+        <p class="cards">HTML</p>
+        <p class="cards">CSS</p>
+        <p class="cards">JavaScript</p>
+      </div>
+      <div class="grid2">
+        <p class="cards">Figma</p>
+        <p class="cards">Adobe XD</p>
+      </div>
+      <div class="grid3">
+        <p class="last-skill cards">React</p>
+      </div>
+    </section>
+    <section id="contact-section" class="contact-us">
+      <h3 class="project-head contact-head">CONTACT</h3>
+      <a href="mailto:ilyas.kamar@yahoo.in"
+        ><button class="contact-btn">email me</button></a
+      >
+      <p class="last-line">Created By Mohmad Kmar</p>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
