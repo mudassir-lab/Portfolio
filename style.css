@@ -287,7 +287,7 @@ i:hover {
   cursor: pointer;
 }
 
-@media (max-width: 1200px) and (min-width: 700px) {
+@media (max-width: 1350px) and (min-width: 800px) {
   .intro-heading {
     font-size: 58px;
   }
@@ -299,7 +299,7 @@ i:hover {
     margin-right: 40%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .hide {
     display: none;
   }
